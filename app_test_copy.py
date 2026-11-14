@@ -17,7 +17,7 @@ import streamlit as st
 # needs prompt_structure.py in the same folder as app.py
 # ==================================================
 sys.path.insert(0, str(Path(__file__).parent))
-from prompt_structure import walk  # noqa: E402
+from prompt_structre import walk  # noqa: E402
 
 FEASIBILITY = ["elapsedTime", "specialistExpertise", "knowledge", "opportunity", "equipment"]
 # ordinal scales, easiest for the attacker first (index = rating code)
